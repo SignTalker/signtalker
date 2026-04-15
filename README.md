@@ -106,3 +106,4 @@ For client-side gesture recognition in demos, you must provide local runtime ass
 - **TFJS gesture model export**: `frontend/public/models/gesture/` (see `frontend/public/models/gesture/README.md`)
 
 # signtalker
+# signtalker

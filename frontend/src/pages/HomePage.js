@@ -1,0 +1,4 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+export function HomePage(props) {
+    return (_jsxs("div", { className: "space-y-6", children: [_jsxs("div", { className: "space-y-2", children: [_jsx("h1", { className: "text-3xl font-semibold tracking-tight", children: "SignTalker" }), _jsx("p", { className: "max-w-2xl text-slate-300", children: "Temporary token-based sessions for real-time sign \u2194 speech assistance. No accounts, no uploads\u2014client-side processing only." })] }), _jsxs("div", { className: "flex flex-wrap gap-3", children: [_jsx("button", { onClick: props.onStart, className: "rounded-md bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-500", children: "Create session" }), _jsx("button", { onClick: props.onJoin, className: "rounded-md border border-slate-700 bg-slate-900/40 px-4 py-2 text-sm font-medium text-slate-100 hover:bg-slate-900/70", children: "Join session" })] })] }));
+}
